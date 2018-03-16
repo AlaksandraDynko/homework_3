@@ -1,0 +1,46 @@
+body {
+    background-color: #ccc
+}
+
+.block{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:rgba(255,255,255, 0.7);
+    padding:5px;
+    display:none;
+    text-align: center;
+}
+.netherlands-flag:hover .block{
+    display:block;
+}
+.netherlands-flag {
+    width: 300px; 
+    height: 200px; 
+    background-color: white; 
+    position:relative;   
+}
+
+.netherlands-flag:before {
+    content: "";
+    width: 100%;
+    height: 33.33%;
+    position: absolute;
+    background-color: #AE1C28;
+    position:absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.netherlands-flag:after {
+    content: "";
+    width: 100%;
+    height: 33.33%;
+    position: absolute;
+    background-color: #21468B;
+    position:absolute;
+    bottom: 0%;
+    left: 0%;
+}
